@@ -30,6 +30,7 @@ public class classroom
     	for (studentInfo si : alobj) {
     		out.println(" ID:- "+si.studentId+" Name:- "+si.studentName+" Marks:- "+si.studentMarks+" Age:- "+si.studentAge);
     	}
+    	out.println("Maximum Marks 100/n");
     	out.println("\t\t\t----Student Comparison on the basis of Marks----");
     	Collections.sort(alobj, new marksComparator());			//Sorting ArrayList elements on the basis of their marks.
     	for (studentInfo smarks : alobj) {
